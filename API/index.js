@@ -16,5 +16,5 @@ function get_random_image(){
   selected_image = image_array[random_index]
 
   // Display the image
-  document.getElementById('image_shower').src = `./images/${selected_image}`
+  document.getElementById('image_shower').src = `./${selected_image}`
 }
